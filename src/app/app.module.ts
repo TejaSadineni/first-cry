@@ -11,13 +11,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
+import { HelpComponent } from './help/help.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ListComponent
+    ListComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +30,8 @@ import { ListComponent } from './list/list.component';
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'list', component: ListComponent},
+      {path: 'help', component: HelpComponent},
+      {path: '**', redirectTo: ''},
     ])
   ],
   providers: [],

@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "first-cry"
+  "defaultProject": "first-cry",
+  "cli": {
+    "analytics": "535a7564-c90d-4fe6-934d-5006d1f5cab2"
+  }
 }
