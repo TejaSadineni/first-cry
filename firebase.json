@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "dist/first-cry",
     "ignore": [
       "firebase.json",
       "**/.*",
